@@ -37,7 +37,7 @@
 
 ### ⚙️ 구조도
 
-<img width="1120" height="632" alt="Image" src="https://github.com/user-attachments/assets/91bc9123-33de-435e-ab1a-db6f8dae9fcc" />
+<img width="1058" height="464" alt="Image" src="https://github.com/user-attachments/assets/7e720ee7-60c5-4ee5-8ec5-b1017043d6f9" />
 
 ### 🎯 대시보드 목적 및 배경
 
