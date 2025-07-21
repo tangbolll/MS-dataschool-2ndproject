@@ -30,8 +30,8 @@
 ![Azure ML](https://img.shields.io/badge/Azure%20ML-0078D4?style=for-the-badge&logo=azureml&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-EA3621?style=for-the-badge&logo=databricks&logoColor=white)
 ![Data Factory](https://img.shields.io/badge/Data%20Factory-0062AD?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Azure AI Search](https://img.shields.io/badge/Azure%20AI%20Search-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white) </br>
-![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0078D4?style=for-the-badge&logo=openai&logoColor=white)
+![Azure AI Search](https://img.shields.io/badge/Azure%20AI%20Search-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white) 
+![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0078D4?style=for-the-badge&logo=openai&logoColor=white) </br>
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
