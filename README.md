@@ -25,8 +25,8 @@
 ![Event Hub](https://img.shields.io/badge/Event%20Hub-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Azure SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Cosmos DB](https://img.shields.io/badge/Cosmos%20DB-0078D4?style=for-the-badge&logo=azurecosmosdb&logoColor=white)
-![Blob Storage](https://img.shields.io/badge/Blob%20Storage-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) </br>
+![Blob Storage](https://img.shields.io/badge/Blob%20Storage-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white) </br>
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) 
 ![Azure ML](https://img.shields.io/badge/Azure%20ML-0078D4?style=for-the-badge&logo=azureml&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-EA3621?style=for-the-badge&logo=databricks&logoColor=white)
 ![Data Factory](https://img.shields.io/badge/Data%20Factory-0062AD?style=for-the-badge&logo=microsoftazure&logoColor=white)
