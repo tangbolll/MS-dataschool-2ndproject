@@ -147,3 +147,17 @@
 | └ 상주 방문 주기 | **파생 필요 (외부 데이터 필요)** | 상주자 주기적 방문 여부 |
 | └ 비상주 체류시간 평균 | **파생 필요: 상주/비상주 분리 후 체류시간 집계** |  |
 
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/5249a817-70b3-46fb-ae13-7fd33bcbf5a8" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/8d1a7adf-ad05-432f-bacf-ebdd0779d29a" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/16873736-486c-4efe-9ce9-178cdecc1142" width="400"/></td>
+    <td><img src="https://github.com/user-attachments/assets/cefc1edc-e2f6-4dd1-b130-0217ea96c3c4" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/fc7a747d-4001-45d8-baf6-b55348d5783d" width="400"/></td>
+    <td></td>
+  </tr>
+</table>
