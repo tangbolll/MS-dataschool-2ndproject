@@ -35,6 +35,9 @@
 ![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
+### ⚙️ 구조도
+
+<img width="1120" height="632" alt="Image" src="https://github.com/user-attachments/assets/91bc9123-33de-435e-ab1a-db6f8dae9fcc" />
 
 ### 🎯 대시보드 목적 및 배경
 
