@@ -93,3 +93,57 @@
     - 주간 단위 흐름 모니터링
 - **활용 기대**:
     - 지역 기반 콘텐츠 타겟 설정, 프로젝트 타당성 검증
+ 
+
+## ✅ 1. 유동인구수 Logic Tree 매핑
+
+| 로직 트리 항목 | 데이터 컬럼 (또는 파생 컬럼) | 설명 |
+| --- | --- | --- |
+| **유출 경로별 인구수** |  |  |
+| └ 버스 유출 | `BUS_ACML_GTOFF_PPLTN_MAX`, `BUS_5WTHN_GTOFF_PPLTN_MAX` | 버스 하차 인원 |
+| └ 지하철 유출 | `SUB_ACML_GTOFF_PPLTN_MAX`, `SUB_5WTHN_GTOFF_PPLTN_MAX` | 지하철 하차 인원 |
+| └ 기타 유출 | **파생 필요** (`따릉이, 도보 추정`) | 거치율, 날씨 등으로 추정 가능 |
+| **유입 경로별 인구수** |  |  |
+| └ 버스 유입 | `BUS_ACML_GTON_PPLTN_MAX`, `BUS_5WTHN_GTON_PPLTN_MAX` | 버스 승차 인원 |
+| └ 지하철 유입 | `SUB_ACML_GTON_PPLTN_MAX`, `SUB_5WTHN_GTON_PPLTN_MAX` | 지하철 승차 인원 |
+| └ 기타 유입 | **파생 필요** (`행사/따릉이/도보 등`) | 문화행사명, 따릉이 |
+| **유입 시간별 인구수** | `PPLTN_TIME`, `LIVE_PPLTN_STTS` | 시간별 실시간 인구수 |
+| └ 요일별 순유입 | `PPLTN_TIME` + 파생 요일 컬럼 | 날짜 기준 요일 추출 |
+| └ 시간별 순유입 | `PPLTN_TIME` 기반 시간대 집계 | 시계열 분석 가능 |
+
+---
+
+## ✅ 2. 소비금액 Logic Tree 매핑
+
+| 로직 트리 항목 | 데이터 컬럼 | 설명 |
+| --- | --- | --- |
+| **소비 업종** | `RSB_LRG_CTGR`, `RSB_MID_CTGR` | 업종 대/중분류 |
+| └ 업종별 소비건수 | `RSB_SH_PAYMENT_CNT` | 업종 기준 결제 건수 |
+| └ 업종별 소비금액 | `RSB_SH_PAYMENT_AMT_MIN`, `MAX` | 업종 기준 소비 금액 |
+| **소비자 유형** |  |  |
+| └ 기존/신규 유저 소비건수 | **파생 필요** | 누적 또는 CRM 연계 필요 |
+| └ 연령별 소비건수 | `CMRCL_10_RATE`~`CMRCL_60_RATE` (비율) | 연령별 소비 비율 |
+| └ 성별 소비건수 | `CMRCL_MALE_RATE`, `CMRCL_FEMALE_RATE` | 성별 소비 비율 |
+| **시간대별 소비금액** | `AREA_SH_PAYMENT_AMT_MIN`, `MAX` + `CMRCL_TIME` | 시간 기준 집계 |
+| └ 객단가 변화량 | `결제금액 / 결제건수` → 파생 | 객단가 파생 컬럼 |
+| **소비 위치** | `AREA_NM`, `ADDRESS`, `LAT`, `LNG` | 장소/위치 정보 |
+
+---
+
+## ✅ 3. 체류시간 Logic Tree 매핑
+
+| 로직 트리 항목 | 데이터 컬럼 또는 파생 | 설명 |
+| --- | --- | --- |
+| **평균 체류 특성** |  |  |
+| └ 인구 수 | `LIVE_PPLTN_STTS`, `AREA_PPLTN_MIN/MAX` | 실시간 인구 |
+| └ 인구 수 범위 | `AREA_PPLTN_MIN`, `AREA_PPLTN_MAX` | 인구 변동 범위 |
+| └ 혼잡도 단계 | `AREA_CONGEST_LVL`, `AREA_CONGEST_MSG` | 혼잡도 수준 |
+| └ 체류 시간 (분석값) | **파생 필요** → `유입 ~ 유출` 시간 간 차이 | 순수 체류시간 파생 |
+| └ 시간대/요일별 평균 | `PPLTN_TIME` 기반 집계 | 평균 계산 |
+| **체류자 속성** |  |  |
+| └ 성별 비율 | `MALE_PPLTN_RATE`, `FEMALE_PPLTN_RATE` | 실시간 성비 |
+| └ 연령대 별 비율 | `PPLTN_RATE_10`~`70` | 실시간 연령대 |
+| └ 상주/비상주 인구 비율 | `RESNT_PPLTN_RATE`, `NON_RESNT_PPLTN_RATE` | 체류자 유형 분류 |
+| └ 상주 방문 주기 | **파생 필요 (외부 데이터 필요)** | 상주자 주기적 방문 여부 |
+| └ 비상주 체류시간 평균 | **파생 필요: 상주/비상주 분리 후 체류시간 집계** |  |
+
