@@ -2,6 +2,25 @@
 
 <img width="1118" height="629" alt="Image" src="https://github.com/user-attachments/assets/05577c2e-852b-4141-8174-d4b3c05e99f1" />
 
+## 🔧 사용 기술 스택
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Azure VM](https://img.shields.io/badge/Azure%20VM-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Azure Function](https://img.shields.io/badge/Azure%20Function-0062AD?style=for-the-badge&logo=azurefunctions&logoColor=white)
+![Event Hub](https://img.shields.io/badge/Event%20Hub-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Cosmos DB](https://img.shields.io/badge/Cosmos%20DB-0078D4?style=for-the-badge&logo=azurecosmosdb&logoColor=white)
+![Blob Storage](https://img.shields.io/badge/Blob%20Storage-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Azure ML](https://img.shields.io/badge/Azure%20ML-0078D4?style=for-the-badge&logo=azureml&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-EA3621?style=for-the-badge&logo=databricks&logoColor=white)
+![Data Factory](https://img.shields.io/badge/Data%20Factory-0062AD?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Azure AI Search](https://img.shields.io/badge/Azure%20AI%20Search-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0078D4?style=for-the-badge&logo=openai&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+
 ### 🎯 대시보드 목적 및 배경
 
 - **개발 배경**:
