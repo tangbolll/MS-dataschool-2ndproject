@@ -14,7 +14,7 @@
 
 | **혼잡도 대시보드** | |
 |:------------------------------:|:--:|
-| <img src="https://github.com/user-attachments/assets/fc7a747d-4001-45d8-baf6-b55348d5783d" width="400"/> | |
+| <img src="https://github.com/user-attachments/assets/fc7a747d-4001-45d8-baf6-b55348d5783d" width="400"/> | <td>|
 
 
 ## 🔧 사용 기술 스택
