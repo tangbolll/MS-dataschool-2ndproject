@@ -1,6 +1,6 @@
 # MS-dataschool-2ndproject
 
-<img width="1118" height="629" alt="Image" src="https://github.com/user-attachments/assets/05577c2e-852b-4141-8174-d4b3c05e99f1" />
+<img width="1079" height="608" alt="Image" src="https://github.com/user-attachments/assets/2f0588f6-6cbe-4ec3-a738-63a722a15086" />
 
 ### 📸 프로젝트 시연 화면
 
@@ -37,7 +37,7 @@
 
 ### ⚙️ 구조도
 
-<img width="1058" height="464" alt="Image" src="https://github.com/user-attachments/assets/7e720ee7-60c5-4ee5-8ec5-b1017043d6f9" />
+<img width="1362" height="597" alt="Image" src="https://github.com/user-attachments/assets/e276d51c-192c-425a-b42a-807f41c814ba" />
 
 ### 🎯 대시보드 목적 및 배경
 
