@@ -2,6 +2,21 @@
 
 <img width="1118" height="629" alt="Image" src="https://github.com/user-attachments/assets/05577c2e-852b-4141-8174-d4b3c05e99f1" />
 
+### 📸 프로젝트 시연 화면
+
+| **실시간 데이터 수집 화면** | **Stream Analytics 흐름도** |
+|:--------------------------:|:----------------------------:|
+| <img src="https://github.com/user-attachments/assets/5249a817-70b3-46fb-ae13-7fd33bcbf5a8" width="400"/> | <img src="https://github.com/user-attachments/assets/8d1a7adf-ad05-432f-bacf-ebdd0779d29a" width="400"/> |
+
+| **데이터베이스 저장 구조** | **Power BI 대시보드** |
+|:--------------------------:|:----------------------:|
+| <img src="https://github.com/user-attachments/assets/16873736-486c-4efe-9ce9-178cdecc1142" width="400"/> | <img src="https://github.com/user-attachments/assets/cefc1edc-e2f6-4dd1-b130-0217ea96c3c4" width="400"/> |
+
+| **이상치 탐지 시 알림 전송 화면** | |
+|:------------------------------:|:--:|
+| <img src="https://github.com/user-attachments/assets/fc7a747d-4001-45d8-baf6-b55348d5783d" width="400"/> | |
+
+
 ## 🔧 사용 기술 스택
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -112,22 +127,7 @@
     - 주간 단위 흐름 모니터링
 - **활용 기대**:
     - 지역 기반 콘텐츠 타겟 설정, 프로젝트 타당성 검증
- 
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/5249a817-70b3-46fb-ae13-7fd33bcbf5a8" width="400"/></td>
-    <td><img src="https://github.com/user-attachments/assets/8d1a7adf-ad05-432f-bacf-ebdd0779d29a" width="400"/></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/16873736-486c-4efe-9ce9-178cdecc1142" width="400"/></td>
-    <td><img src="https://github.com/user-attachments/assets/cefc1edc-e2f6-4dd1-b130-0217ea96c3c4" width="400"/></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/fc7a747d-4001-45d8-baf6-b55348d5783d" width="400"/></td>
-    <td></td>
-  </tr>
-</table>
- 
+  
 
 ### 1. 유동인구수 Logic Tree 매핑
 
