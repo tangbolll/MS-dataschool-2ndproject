@@ -8,7 +8,7 @@
 |:--------------------------:|:----------------------------:|
 | <img src="https://github.com/user-attachments/assets/5249a817-70b3-46fb-ae13-7fd33bcbf5a8" width="400"/> | <img src="https://github.com/user-attachments/assets/8d1a7adf-ad05-432f-bacf-ebdd0779d29a" width="400"/> |
 
-| ** 유동인구 대시보드** | **체류시간 대시보드** |
+| **유동인구 대시보드** | **체류시간 대시보드** |
 |:--------------------------:|:----------------------:|
 | <img src="https://github.com/user-attachments/assets/16873736-486c-4efe-9ce9-178cdecc1142" width="400"/> | <img src="https://github.com/user-attachments/assets/cefc1edc-e2f6-4dd1-b130-0217ea96c3c4" width="400"/> |
 
