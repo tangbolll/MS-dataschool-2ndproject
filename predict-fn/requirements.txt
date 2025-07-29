@@ -1,0 +1,16 @@
+# Do not include azure-functions-worker in this file
+# The Python Worker is managed by the Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+# Azure Functions 필수 패키지
+azure-functions
+azure-storage-blob
+
+# 데이터 처리 및 ML
+pandas
+numpy
+scikit-learn
+joblib
+
+# 메모리 관리
+psutil
